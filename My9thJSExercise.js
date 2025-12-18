@@ -42,6 +42,7 @@ Here are the tasks to complete:
 
 7. As a passing test, run the letterFinder function and pass it with correct arguments, such as: letterFinder("cat", "c").*/
 
+//Solution:
 function letterFinder(word, match) {
     let condition1 = (typeof(word) === 'string' && word.length >= 2);
     let condition2 = (typeof(match) === 'string' && match.length === 1)
