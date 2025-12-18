@@ -40,6 +40,9 @@ Invoke the addTwoNums function using 5 and "5" as arguments.
 
 Task 7: Add another console log under the addTwoNums function invocation
 Add another line of code that console logs the string "It still works".*/
+
+//Solution:
+
 function addTwoNums(a, b) {
     try {
         if (typeof(a) !== "number") {
