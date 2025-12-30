@@ -155,5 +155,10 @@ To add elements into a Set you can use add() method which takes arguments and ad
 
 console.log("Set as Data Structure:");
 const repetitiveFruits = ['apple','pear','apple','pear','plum', 'apple'];
-const uniqueFruits = new Set(repetitiveFruits);
+const uniqueFruits = new Set(repetitiveFruits); // This will filters out the duplicates in the input array element
+
+// This will adds up the whole array as an element/object and does not filters out the dups.
+//const uniqueFruits = new Set();
+//uniqueFruits.add(repetitiveFruits);
+
 console.log(uniqueFruits);
